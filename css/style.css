@@ -1,0 +1,158 @@
+/* 기본 설정 */
+body {
+  font-family: "Pretendard", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8fa;
+  color: #222;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #111;
+}
+
+/* 선택 요약 */
+.selection-summary {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  background: #e7e9ec;
+  border-radius: 25px;
+  padding: 6px 16px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* 결과 박스 */
+.result-content {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.result-header {
+  margin-bottom: 25px;
+}
+
+.result-header .desc {
+  color: #555;
+  font-size: 15px;
+}
+
+/* 이미지 갤러리 */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* 버튼 */
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px 18px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #007aff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #111;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* 결과 액션 */
+.result-actions {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* 모달 (이미지 확대) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.85);
+  padding-top: 60px;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+}
+
+.close {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media (max-width: 600px) {
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .modal-content {
+    max-width: 95%;
+    max-height: 70vh;
+  }
+  .close {
+    top: 20px;
+    right: 20px;
+    font-size: 32px;
+  }
+}

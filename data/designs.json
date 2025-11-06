@@ -1,0 +1,37 @@
+[
+  { "space": "거실", "style": "모던", "furniture": "소파", "images": ["living_modern_sofa1.jpg", "living_modern_sofa2.jpg", "living_modern_sofa3.jpg"] },
+  { "space": "거실", "style": "모던", "furniture": "식탁", "images": ["living_modern_table1.jpg", "living_modern_table2.jpg", "living_modern_table3.jpg"] },
+  { "space": "거실", "style": "모던", "furniture": "침대", "images": ["living_modern_bed1.jpg", "living_modern_bed2.jpg", "living_modern_bed3.jpg"] },
+
+  { "space": "거실", "style": "빈티지", "furniture": "소파", "images": ["living_vintage_sofa1.jpg", "living_vintage_sofa2.jpg", "living_vintage_sofa3.jpg"] },
+  { "space": "거실", "style": "빈티지", "furniture": "식탁", "images": ["living_vintage_table1.jpg", "living_vintage_table2.jpg", "living_vintage_table3.jpg"] },
+  { "space": "거실", "style": "빈티지", "furniture": "침대", "images": ["living_vintage_bed1.jpg", "living_vintage_bed2.jpg", "living_vintage_bed3.jpg"] },
+
+  { "space": "거실", "style": "북유럽", "furniture": "소파", "images": ["living_nordic_sofa1.jpg", "living_nordic_sofa2.jpg", "living_nordic_sofa3.jpg"] },
+  { "space": "거실", "style": "북유럽", "furniture": "식탁", "images": ["living_nordic_table1.jpg", "living_nordic_table2.jpg", "living_nordic_table3.jpg"] },
+  { "space": "거실", "style": "북유럽", "furniture": "침대", "images": ["living_nordic_bed1.jpg", "living_nordic_bed2.jpg", "living_nordic_bed3.jpg"] },
+
+  { "space": "주방", "style": "모던", "furniture": "소파", "images": ["kitchen_modern_sofa1.jpg", "kitchen_modern_sofa2.jpg", "kitchen_modern_sofa3.jpg"] },
+  { "space": "주방", "style": "모던", "furniture": "식탁", "images": ["kitchen_modern_table1.jpg", "kitchen_modern_table2.jpg", "kitchen_modern_table3.jpg"] },
+  { "space": "주방", "style": "모던", "furniture": "침대", "images": ["kitchen_modern_bed1.jpg", "kitchen_modern_bed2.jpg", "kitchen_modern_bed3.jpg"] },
+
+  { "space": "주방", "style": "빈티지", "furniture": "소파", "images": ["kitchen_vintage_sofa1.jpg", "kitchen_vintage_sofa2.jpg", "kitchen_vintage_sofa3.jpg"] },
+  { "space": "주방", "style": "빈티지", "furniture": "식탁", "images": ["kitchen_vintage_table1.jpg", "kitchen_vintage_table2.jpg", "kitchen_vintage_table3.jpg"] },
+  { "space": "주방", "style": "빈티지", "furniture": "침대", "images": ["kitchen_vintage_bed1.jpg", "kitchen_vintage_bed2.jpg", "kitchen_vintage_bed3.jpg"] },
+
+  { "space": "주방", "style": "북유럽", "furniture": "소파", "images": ["kitchen_nordic_sofa1.jpg", "kitchen_nordic_sofa2.jpg", "kitchen_nordic_sofa3.jpg"] },
+  { "space": "주방", "style": "북유럽", "furniture": "식탁", "images": ["kitchen_nordic_table1.jpg", "kitchen_nordic_table2.jpg", "kitchen_nordic_table3.jpg"] },
+  { "space": "주방", "style": "북유럽", "furniture": "침대", "images": ["kitchen_nordic_bed1.jpg", "kitchen_nordic_bed2.jpg", "kitchen_nordic_bed3.jpg"] },
+
+  { "space": "침실", "style": "모던", "furniture": "소파", "images": ["bedroom_modern_sofa1.jpg", "bedroom_modern_sofa2.jpg", "bedroom_modern_sofa3.jpg"] },
+  { "space": "침실", "style": "모던", "furniture": "식탁", "images": ["bedroom_modern_table1.jpg", "bedroom_modern_table2.jpg", "bedroom_modern_table3.jpg"] },
+  { "space": "침실", "style": "모던", "furniture": "침대", "images": ["bedroom_modern_bed1.jpg", "bedroom_modern_bed2.jpg", "bedroom_modern_bed3.jpg"] },
+
+  { "space": "침실", "style": "빈티지", "furniture": "소파", "images": ["bedroom_vintage_sofa1.jpg", "bedroom_vintage_sofa2.jpg", "bedroom_vintage_sofa3.jpg"] },
+  { "space": "침실", "style": "빈티지", "furniture": "식탁", "images": ["bedroom_vintage_table1.jpg", "bedroom_vintage_table2.jpg", "bedroom_vintage_table3.jpg"] },
+  { "space": "침실", "style": "빈티지", "furniture": "침대", "images": ["bedroom_vintage_bed1.jpg", "bedroom_vintage_bed2.jpg", "bedroom_vintage_bed3.jpg"] },
+
+  { "space": "침실", "style": "북유럽", "furniture": "소파", "images": ["bedroom_nordic_sofa1.jpg", "bedroom_nordic_sofa2.jpg", "bedroom_nordic_sofa3.jpg"] },
+  { "space": "침실", "style": "북유럽", "furniture": "식탁", "images": ["bedroom_nordic_table1.jpg", "bedroom_nordic_table2.jpg", "bedroom_nordic_table3.jpg"] },
+  { "space": "침실", "style": "북유럽", "furniture": "침대", "images": ["bedroom_nordic_bed1.jpg", "bedroom_nordic_bed2.jpg", "bedroom_nordic_bed3.jpg"] }
+]
